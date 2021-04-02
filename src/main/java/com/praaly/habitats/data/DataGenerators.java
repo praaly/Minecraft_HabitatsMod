@@ -5,7 +5,7 @@ import com.praaly.habitats.data.client.ModBlockStateProvider;
 import com.praaly.habitats.data.client.ModItemModelProvider;
 import com.praaly.habitats.HabitasMod;
 import net.minecraft.data.DataGenerator;
-import net.minecraftforge.client.model.generators.ExistingFileHelper;
+import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
@@ -21,6 +21,11 @@ public final class DataGenerators {
 
         gen.addProvider(new ModBlockStateProvider(gen, existingFileHelper));
         gen.addProvider(new ModItemModelProvider(gen, existingFileHelper));
+
+        ModBlockStateProvider blockTags = new ModBlockStateProvider(gen, existingFileHelper);
+        gen.addProvider(blockTags);
+        gen.addProvider(new ModItemModelProvider(gen, blockTags, existingFileHelper));
+
 
     }
 }
