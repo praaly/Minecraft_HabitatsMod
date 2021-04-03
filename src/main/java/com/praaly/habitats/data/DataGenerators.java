@@ -22,10 +22,9 @@ public final class DataGenerators {
         gen.addProvider(new ModBlockStateProvider(gen, existingFileHelper));
         gen.addProvider(new ModItemModelProvider(gen, existingFileHelper));
 
-        ModBlockStateProvider blockTags = new ModBlockStateProvider(gen, existingFileHelper);
+        ModBlockTagsProvider blockTags = new ModBlockTagsProvider(gen, existingFileHelper);
         gen.addProvider(blockTags);
-        gen.addProvider(new ModItemModelProvider(gen, blockTags, existingFileHelper));
-
+        gen.addProvider(new ModItemTagProvider(gen, blockTags, existingFileHelper));
 
     }
 }

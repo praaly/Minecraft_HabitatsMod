@@ -17,9 +17,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> SILVER_BLOCK = register("silver_block", () ->
             new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3,10).sound(SoundType.STONE)));
 
-
-
-
     public static void register(){}
     private static <T extends Block>RegistryObject<T> registerNoItem(String name, Supplier<T> block){
         return Registration.BLOCKS.register(name, block);

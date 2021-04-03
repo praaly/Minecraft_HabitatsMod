@@ -1,15 +1,15 @@
-Args: "--clean", "C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.3-20200911.084530\joined-1.16.3-20200911.084530-srg.jar", "--output", "C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.0\forge-1.16.3-34.1.0-binpatched.jar", "--apply", "C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.0\forge-1.16.3-34.1.0-binpatches.lzma"
+Args: "--clean", "C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.3-20200911.084530\joined-1.16.3-20200911.084530-srg.jar", "--output", "C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.29\forge-1.16.3-34.1.29-binpatched.jar", "--apply", "C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.29\forge-1.16.3-34.1.29-binpatches.lzma"
 Classpath: C:\Users\praaa\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.0.12\binarypatcher-1.0.12-fatjar.jar
 WorkDir: C:\Users\praaa\OneDrive\Documents\Applications\mods\build\_applyBinpatches_2
 Main: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.3-20200911.084530\joined-1.16.3-20200911.084530-srg.jar
-  Output:    C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.0\forge-1.16.3-34.1.0-binpatched.jar
+  Output:    C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.29\forge-1.16.3-34.1.29-binpatched.jar
   KeepData:  false
   Unpatched: false
-  Patches:   C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.0\forge-1.16.3-34.1.0-binpatches.lzma
-Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.0\forge-1.16.3-34.1.0-binpatches.lzma
+  Patches:   C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.29\forge-1.16.3-34.1.29-binpatches.lzma
+Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.1.29\forge-1.16.3-34.1.29-binpatches.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 27fccb26 Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -500,6 +500,8 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 7b59a1ff Exists: true
   Reading patch net.minecraft.client.network.play.ClientPlayNetHandler.binpatch
     Checksum: da011b40 Exists: true
+  Reading patch net.minecraft.client.network.play.NetworkPlayerInfo.binpatch
+    Checksum: 62614994 Exists: true
   Reading patch net.minecraft.client.particle.DiggingParticle$Factory.binpatch
     Checksum: d02a31dc Exists: true
   Reading patch net.minecraft.client.particle.DiggingParticle.binpatch
@@ -1088,8 +1090,6 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 8cd0abc6 Exists: true
   Reading patch net.minecraft.entity.monster.EvokerEntity.binpatch
     Checksum: 7b27ed68 Exists: true
-  Reading patch net.minecraft.entity.monster.HoglinEntity.binpatch
-    Checksum: c9bcbc42 Exists: true
   Reading patch net.minecraft.entity.monster.IllusionerEntity$1.binpatch
     Checksum: 74b23dcf Exists: true
   Reading patch net.minecraft.entity.monster.IllusionerEntity$BlindnessSpellGoal.binpatch
@@ -1282,32 +1282,6 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 7a6a0346 Exists: true
   Reading patch net.minecraft.entity.passive.OcelotEntity.binpatch
     Checksum: cc54b710 Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$AttackGoal.binpatch
-    Checksum: c97fc315 Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$AvoidGoal.binpatch
-    Checksum: 982e4e89 Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$ChildPlayGoal.binpatch
-    Checksum: 605a112a Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$Gene.binpatch
-    Checksum: 975137cf Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$LieBackGoal.binpatch
-    Checksum: 812f36ab Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$MateGoal.binpatch
-    Checksum: 5d92fbdd Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$MoveHelperController.binpatch
-    Checksum: d891ce52 Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$PanicGoal.binpatch
-    Checksum: 66c2ae73 Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$RevengeGoal.binpatch
-    Checksum: 1abd889b Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$RollGoal.binpatch
-    Checksum: 42b6c7f Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$SitGoal.binpatch
-    Checksum: 5733e78a Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity$WatchGoal.binpatch
-    Checksum: 2330e68d Exists: true
-  Reading patch net.minecraft.entity.passive.PandaEntity.binpatch
-    Checksum: bda76285 Exists: true
   Reading patch net.minecraft.entity.passive.ParrotEntity$1.binpatch
     Checksum: 58b71250 Exists: true
   Reading patch net.minecraft.entity.passive.ParrotEntity.binpatch
@@ -1336,30 +1310,6 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 6ff0615a Exists: true
   Reading patch net.minecraft.entity.passive.SnowGolemEntity.binpatch
     Checksum: c2821c7b Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$1.binpatch
-    Checksum: a7673a61 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$GoHomeGoal.binpatch
-    Checksum: 94db78b8 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$GoToWaterGoal.binpatch
-    Checksum: 28a03363 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$LayEggGoal.binpatch
-    Checksum: 14dd1f05 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$MateGoal.binpatch
-    Checksum: f07224fb Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$MoveHelperController.binpatch
-    Checksum: 8b294642 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$Navigator.binpatch
-    Checksum: 77ee1e59 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$PanicGoal.binpatch
-    Checksum: 497c7cea Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$PlayerTemptGoal.binpatch
-    Checksum: 5141a974 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$TravelGoal.binpatch
-    Checksum: 73829225 Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity$WanderGoal.binpatch
-    Checksum: 21a0578e Exists: true
-  Reading patch net.minecraft.entity.passive.TurtleEntity.binpatch
-    Checksum: 8f7daddf Exists: true
   Reading patch net.minecraft.entity.passive.WolfEntity$AvoidEntityGoal.binpatch
     Checksum: e05419b6 Exists: true
   Reading patch net.minecraft.entity.passive.WolfEntity.binpatch
@@ -1370,16 +1320,6 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: e47eb79a Exists: true
   Reading patch net.minecraft.entity.passive.horse.HorseEntity.binpatch
     Checksum: 83a623c9 Exists: true
-  Reading patch net.minecraft.entity.passive.horse.LlamaEntity$1.binpatch
-    Checksum: ba923dd9 Exists: true
-  Reading patch net.minecraft.entity.passive.horse.LlamaEntity$DefendTargetGoal.binpatch
-    Checksum: d905ded8 Exists: true
-  Reading patch net.minecraft.entity.passive.horse.LlamaEntity$HurtByTargetGoal.binpatch
-    Checksum: f08e1987 Exists: true
-  Reading patch net.minecraft.entity.passive.horse.LlamaEntity$LlamaData.binpatch
-    Checksum: 6e9cd068 Exists: true
-  Reading patch net.minecraft.entity.passive.horse.LlamaEntity.binpatch
-    Checksum: 5e839b96 Exists: true
   Reading patch net.minecraft.entity.player.PlayerEntity$1.binpatch
     Checksum: 8033a645 Exists: true
   Reading patch net.minecraft.entity.player.PlayerEntity$SleepResult.binpatch
@@ -1844,6 +1784,10 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 7ab71d17 Exists: true
   Reading patch net.minecraft.network.play.server.SCustomPayloadPlayPacket.binpatch
     Checksum: 20a00116 Exists: true
+  Reading patch net.minecraft.network.rcon.ClientThread.binpatch
+    Checksum: 907824a7 Exists: true
+  Reading patch net.minecraft.network.rcon.RConConsoleSource.binpatch
+    Checksum: 4db7bef9 Exists: true
   Reading patch net.minecraft.network.status.server.SServerInfoPacket.binpatch
     Checksum: de60e46a Exists: true
   Reading patch net.minecraft.particles.BlockParticleData$1.binpatch
@@ -2066,6 +2010,10 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 92b5fd9e Exists: true
   Reading patch net.minecraft.util.RegistryKey.binpatch
     Checksum: d6f43da2 Exists: true
+  Reading patch net.minecraft.util.ResourceLocation$Serializer.binpatch
+    Checksum: 62e93fde Exists: true
+  Reading patch net.minecraft.util.ResourceLocation.binpatch
+    Checksum: 54c01ee4 Exists: true
   Reading patch net.minecraft.util.ScreenShotHelper.binpatch
     Checksum: ec01c3b2 Exists: true
   Reading patch net.minecraft.util.Session$Type.binpatch
@@ -2296,6 +2244,10 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 6df1a5c0 Exists: true
   Reading patch net.minecraft.world.gen.feature.jigsaw.SingleJigsawPiece.binpatch
     Checksum: c7974cc0 Exists: true
+  Reading patch net.minecraft.world.gen.feature.structure.FortressStructure$Start.binpatch
+    Checksum: 99e0160 Exists: true
+  Reading patch net.minecraft.world.gen.feature.structure.FortressStructure.binpatch
+    Checksum: 12baed44 Exists: true
   Reading patch net.minecraft.world.gen.feature.structure.MineshaftPieces$1.binpatch
     Checksum: 65a7354b Exists: true
   Reading patch net.minecraft.world.gen.feature.structure.MineshaftPieces$Corridor.binpatch
@@ -2310,6 +2262,12 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 2dba7120 Exists: true
   Reading patch net.minecraft.world.gen.feature.structure.MineshaftPieces.binpatch
     Checksum: cedd0365 Exists: true
+  Reading patch net.minecraft.world.gen.feature.structure.OceanMonumentStructure$Start.binpatch
+    Checksum: a0d963f5 Exists: true
+  Reading patch net.minecraft.world.gen.feature.structure.OceanMonumentStructure.binpatch
+    Checksum: 9c6c3bf3 Exists: true
+  Reading patch net.minecraft.world.gen.feature.structure.PillagerOutpostStructure.binpatch
+    Checksum: 6599be9f Exists: true
   Reading patch net.minecraft.world.gen.feature.structure.Structure$IStartFactory.binpatch
     Checksum: 1924e634 Exists: true
   Reading patch net.minecraft.world.gen.feature.structure.Structure.binpatch
@@ -2324,6 +2282,10 @@ Loading patches file: C:\Users\praaa\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: c0685d9d Exists: true
   Reading patch net.minecraft.world.gen.feature.structure.StructureStart.binpatch
     Checksum: 1409ea25 Exists: true
+  Reading patch net.minecraft.world.gen.feature.structure.SwampHutStructure$Start.binpatch
+    Checksum: df5211fa Exists: true
+  Reading patch net.minecraft.world.gen.feature.structure.SwampHutStructure.binpatch
+    Checksum: 43cf6332 Exists: true
   Reading patch net.minecraft.world.gen.feature.template.StructureProcessor.binpatch
     Checksum: 5ef76123 Exists: true
   Reading patch net.minecraft.world.gen.feature.template.Template$1.binpatch
@@ -2636,7 +2598,6 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/entity/merchant/villager/AbstractVillagerEntity 1/1
   Patching net/minecraft/entity/monster/piglin/PiglinTasks 1/1
   Patching net/minecraft/entity/monster/piglin/PiglinEntity 1/1
-  Patching net/minecraft/entity/monster/HoglinEntity 1/1
   Patching net/minecraft/entity/monster/ZombieEntity 1/1
   Patching net/minecraft/entity/monster/SpiderEntity 1/1
   Patching net/minecraft/entity/monster/SlimeEntity 1/1
@@ -2674,7 +2635,6 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/entity/monster/IllusionerEntity$1 1/1
   Patching net/minecraft/entity/boss/dragon/EnderDragonEntity 1/1
   Patching net/minecraft/loot/LootContext$EntityTarget$Serializer 1/1
-  Patching net/minecraft/entity/passive/horse/LlamaEntity 1/1
   Patching net/minecraft/entity/passive/horse/HorseEntity 1/1
   Patching net/minecraft/client/gui/widget/list/KeyBindingList$KeyEntry$2 1/1
   Patching net/minecraft/world/biome/BiomeGenerationSettings$Builder 1/1
@@ -2682,12 +2642,10 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/entity/passive/horse/AbstractHorseEntity 1/1
   Patching net/minecraft/entity/passive/WolfEntity 1/1
   Patching net/minecraft/client/gui/screen/LanguageScreen$List$LanguageEntry 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity 1/1
   Patching net/minecraft/entity/passive/SnowGolemEntity 1/1
   Patching net/minecraft/entity/passive/SheepEntity 1/1
   Patching net/minecraft/entity/passive/RabbitEntity 1/1
   Patching net/minecraft/entity/passive/ParrotEntity 1/1
-  Patching net/minecraft/entity/passive/PandaEntity 1/1
   Patching net/minecraft/entity/passive/OcelotEntity 1/1
   Patching net/minecraft/entity/passive/MooshroomEntity 1/1
   Patching net/minecraft/entity/passive/IronGolemEntity 1/1
@@ -2778,6 +2736,8 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/stats/StatType 1/1
   Patching net/minecraft/util/SoundEvents 1/1
   Patching net/minecraft/util/SoundEvent 1/1
+  Patching net/minecraft/network/rcon/ClientThread 1/1
+  Patching net/minecraft/network/rcon/RConConsoleSource 1/1
   Patching net/minecraft/entity/EntitySpawnPlacementRegistry$PlacementType 1/1
   Patching net/minecraft/entity/EntitySpawnPlacementRegistry$IPlacementPredicate 1/1
   Patching net/minecraft/entity/EntitySpawnPlacementRegistry$Entry 1/1
@@ -2936,6 +2896,7 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/util/Direction$Axis 1/1
   Patching net/minecraft/entity/item/ItemFrameEntity$1 1/1
   Patching net/minecraft/util/Direction$1 1/1
+  Patching net/minecraft/util/ResourceLocation$Serializer 1/1
   Patching net/minecraft/world/World$1 1/1
   Patching net/minecraft/advancements/Advancement$Builder 1/1
   Patching net/minecraft/advancements/Advancement$1 1/1
@@ -2996,6 +2957,7 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/block/AbstractRailBlock$1 1/1
   Patching net/minecraft/item/crafting/Ingredient$1 1/1
   Patching net/minecraft/server/MinecraftServer 1/1
+  Patching net/minecraft/world/gen/feature/structure/OceanMonumentStructure$Start 1/1
   Patching net/minecraft/entity/passive/WolfEntity$AvoidEntityGoal 1/1
   Patching net/minecraft/item/ItemGroup$9 1/1
   Patching net/minecraft/item/ItemGroup$8 1/1
@@ -3060,18 +3022,6 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/server/gui/MinecraftServerGui$2 1/1
   Patching net/minecraft/server/gui/MinecraftServerGui$1 1/1
   Patching net/minecraft/entity/item/ArmorStandEntity$1 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$ChildPlayGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$SitGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$RollGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$PanicGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$MoveHelperController 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$WatchGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$LieBackGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$RevengeGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$MateGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$AvoidGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$AttackGoal 1/1
-  Patching net/minecraft/entity/passive/PandaEntity$Gene 1/1
   Patching net/minecraft/util/text/LanguageMap$1 1/1
   Patching net/minecraft/data/TagsProvider$Builder 1/1
   Patching net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry 1/1
@@ -3116,18 +3066,7 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/inventory/container/EnchantmentContainer$2 1/1
   Patching net/minecraft/inventory/container/EnchantmentContainer$1 1/1
   Patching net/minecraft/entity/monster/AbstractSkeletonEntity$1 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$TravelGoal 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$PlayerTemptGoal 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$WanderGoal 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$Navigator 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$PanicGoal 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$MoveHelperController 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$LayEggGoal 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$GoToWaterGoal 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$GoHomeGoal 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$MateGoal 1/1
   Patching net/minecraft/item/MinecartItem$1 1/1
-  Patching net/minecraft/entity/passive/TurtleEntity$1 1/1
   Patching net/minecraft/tileentity/TileEntityType$Builder 1/1
   Patching net/minecraft/inventory/container/BeaconContainer$BeaconSlot 1/1
   Patching net/minecraft/inventory/container/BeaconContainer$1 1/1
@@ -3157,6 +3096,7 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/client/renderer/BlockModelRenderer$Cache$2 1/1
   Patching net/minecraft/client/renderer/BlockModelRenderer$Cache$1 1/1
   Patching net/minecraft/util/registry/Bootstrap 1/1
+  Patching net/minecraft/util/ResourceLocation 1/1
   Patching net/minecraft/util/RegistryKey 1/1
   Patching net/minecraft/client/particle/ParticleManager$IParticleMetaFactory 1/1
   Patching net/minecraft/util/registry/WorldSettingsImport 1/1
@@ -3183,13 +3123,9 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/network/play/client/CCustomPayloadPacket 1/1
   Patching net/minecraft/network/play/client/CClickWindowPacket 1/1
   Patching net/minecraft/network/play/client/CClientSettingsPacket 1/1
-  Patching net/minecraft/entity/passive/horse/LlamaEntity$HurtByTargetGoal 1/1
-  Patching net/minecraft/entity/passive/horse/LlamaEntity$LlamaData 1/1
-  Patching net/minecraft/entity/passive/horse/LlamaEntity$DefendTargetGoal 1/1
   Patching net/minecraft/network/play/server/SCustomPayloadPlayPacket 1/1
   Patching net/minecraft/client/renderer/FirstPersonRenderer$1 1/1
   Patching net/minecraft/network/play/server/SCommandListPacket 1/1
-  Patching net/minecraft/entity/passive/horse/LlamaEntity$1 1/1
   Patching net/minecraft/util/registry/WorldSettingsImport$IResourceAccess$RegistryAccess 1/1
   Patching net/minecraft/util/text/TranslationTextComponent 1/1
   Patching net/minecraft/util/text/Style 1/1
@@ -3205,6 +3141,7 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/biome/BiomeRegistry 1/1
   Patching net/minecraft/client/renderer/model/WeightedBakedModel$WeightedModel 1/1
   Patching net/minecraft/client/renderer/model/WeightedBakedModel$Builder 1/1
+  Patching net/minecraft/world/gen/feature/structure/FortressStructure$Start 1/1
   Patching net/minecraft/data/TagsProvider 1/1
   Patching net/minecraft/data/ItemTagsProvider 1/1
   Patching net/minecraft/data/FluidTagsProvider 1/1
@@ -3342,6 +3279,7 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/client/renderer/model/ItemCameraTransforms 1/1
   Patching net/minecraft/client/renderer/model/ItemTransformVec3f 1/1
   Patching net/minecraft/client/renderer/model/ItemOverrideList 1/1
+  Patching net/minecraft/world/gen/feature/structure/SwampHutStructure$Start 1/1
   Patching net/minecraft/client/renderer/model/ItemModelGenerator 1/1
   Patching net/minecraft/world/biome/BiomeAmbience$GrassColorModifier 1/1
   Patching net/minecraft/world/biome/BiomeAmbience$Builder 1/1
@@ -3389,6 +3327,7 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/client/gui/screen/CreateWorldScreen$DatapackException 1/1
   Patching net/minecraft/client/network/ServerPinger 1/1
   Patching net/minecraft/client/multiplayer/ServerData 1/1
+  Patching net/minecraft/client/network/play/NetworkPlayerInfo 1/1
   Patching net/minecraft/client/multiplayer/PlayerController 1/1
   Patching net/minecraft/client/network/play/ClientPlayNetHandler 1/1
   Patching net/minecraft/client/world/ClientWorld 1/1
@@ -3575,10 +3514,14 @@ Processing: C:\Users\praaa\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/tags/ITag$1 1/1
   Patching net/minecraft/item/Item$Properties 1/1
   Patching net/minecraft/world/gen/blockplacer/BlockPlacerType 1/1
+  Patching net/minecraft/world/gen/feature/structure/SwampHutStructure 1/1
   Patching net/minecraft/world/gen/feature/structure/Structure 1/1
   Patching net/minecraft/world/gen/feature/SpringFeature 1/1
   Patching net/minecraft/block/PistonBlock$1 1/1
   Patching net/minecraft/item/Item$1 1/1
+  Patching net/minecraft/world/gen/feature/structure/PillagerOutpostStructure 1/1
+  Patching net/minecraft/world/gen/feature/structure/OceanMonumentStructure 1/1
+  Patching net/minecraft/world/gen/feature/structure/FortressStructure 1/1
   Patching net/minecraft/world/gen/feature/DungeonsFeature 1/1
   Patching net/minecraft/world/gen/feature/IceSpikeFeature 1/1
   Patching net/minecraft/world/gen/feature/BigRedMushroomFeature 1/1

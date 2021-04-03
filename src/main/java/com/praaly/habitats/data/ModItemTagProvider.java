@@ -3,11 +3,13 @@ package com.praaly.habitats.data;
 import com.praaly.habitats.HabitasMod;
 import com.praaly.habitats.setup.ModItems;
 import com.praaly.habitats.setup.ModTags;
+
 import net.minecraft.data.BlockTagsProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.ItemTagsProvider;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
+
 
 import javax.annotation.Nullable;
 
@@ -25,5 +27,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
         copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
 
         getOrCreateBuilder(ModTags.Items.INGOTS_SILVER).add(ModItems.SILVER_INGOT.get());
+        getOrCreateBuilder(Tags.Items.INGOTS).add(ModTags.Items.INGOTS_SILVER);
     }
 }
